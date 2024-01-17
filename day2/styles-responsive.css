@@ -1,0 +1,192 @@
+@font-face {
+    font-family: "Cafe24Supermagic-Bold-v1.0";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/Cafe24Supermagic-Bold-v1.0.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    height: 70px;
+    padding:0px 20px;
+    align-self: stretch;
+    flex-direction: row;
+}
+
+header {
+    display: flex;
+width: 390px;
+padding: 60px 24px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 20px;
+}
+
+.badge{
+    border-radius: 10px;
+background: #E6EEFF;
+    padding: 8px 24px;
+    align-items: center;
+}
+
+header h1{
+    color: #333;
+
+font-family: Pretendard;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 38.4px */
+letter-spacing: -0.64px;
+}
+
+header em{
+    background: linear-gradient(99deg, #001f8f 3.58%, rgba(36, 255, 203, 0.5) 90.34%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation-name:slide;
+    animation-duration: 3s;
+    position: absolute;
+    animation-iteration-count:infinite;
+}
+
+.headerLinkContainer {
+    display: flex;
+    gap: 16px;
+    /* flex-direction: row; */
+}
+
+.headerLink {
+    border-radius: 16px;
+    background: #000;
+    padding: 16px 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.headerLink02{
+    border-radius: 16px;
+    background: #FFFFFF;
+    padding: 16px 20px;
+    color: #000;
+    text-decoration: none;
+}
+
+.section01{
+    display: flex;
+padding: 60px 24px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+align-self: stretch; 
+background: linear-gradient(96deg, rgba(189, 210, 255, 0.40) 1.72%, rgba(116, 224, 215, 0.40) 158.93%);
+}
+.title{
+    color: #333;
+    font-family: Pretendard;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%; /* 22.5px */
+    letter-spacing: -0.36px;
+}
+
+.content{
+    color: #333;
+font-family: Pretendard;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 21px */
+letter-spacing: -0.28px;
+}
+
+.section02{
+    display: flex;
+padding: 60px 24px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 32px;
+align-self: stretch;
+}
+.div02{
+    display:flex;
+    flex-direction:column;
+    padding: 60px 24px;
+    justify-content:center;
+    gap:32px;
+}
+.div04{
+    color: #000;
+
+    /* sectionTitle */
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 108.333% */
+    letter-spacing: -0.48px;
+}
+.div06{
+
+}
+.imagepy {
+    content: url("python.png");
+    height: 50px;
+    width: 50px;
+}
+.imageno {
+    content: url("notion.png");
+    height: 50px;
+    width: 50px;
+}
+.imageji {
+    content: url("jira.png");
+    height: 50px;
+    width: 50px;
+}
+.imagec {
+    content: url("c.png");
+    height: 50px;
+    width: 50px;
+}
+.imagecl {
+    content: url("clickup.png");
+    height: 30px;
+    width: 30px;
+}
+.image10{
+    content: url("Group\ 10.png");
+    height: 50px;
+    width: 50px;
+}
+.image11{
+    content: url("Group\ 11.png");
+    height: 50px;
+    width: 50px;
+}
+.image12{
+    content: url("Group\ 12.png");
+    height: 50px;
+    width: 50px;
+}
+.image12{
+    content: url("Group\ 12.png");
+    height: 50px;
+    width: 50px;
+}
+.image13{
+    content: url("Group\ 13.png");
+    height: 50px;
+    width: 50px;
+}
+.image14{
+    content: url("Group\ 14.png");
+    height: 50px;
+    width: 50px;
+}

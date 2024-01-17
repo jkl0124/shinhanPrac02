@@ -178,6 +178,7 @@ header h1 em {
     align-items: flex-start;
     gap: 20px;
     flex-shrink: 0;
+    position: relative;
 }
 
 .title {
@@ -209,12 +210,11 @@ header h1 em {
 }
 
 .super {
+    content: url("./super.png");
     width: 119px;
     position: absolute;
     height: 119px;
-    right: -500px;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-    content: url("https://via.placeholder.com/119x119");
+    right: 200px;
 }
 .section02 {
     display: flex;
@@ -348,7 +348,7 @@ align-items: flex-start;
 gap: 32px;
 flex: 1 0 0;
 }
-.proj01{
+.proj01{    
     color: #403930;
 font-family: Pretendard;
 font-size: 40px;
@@ -361,10 +361,168 @@ letter-spacing: -0.8px;
     display: flex;
     width: 1080px;
     height: 400px;
-    background-color:#405BA1;
+    background-color:#6f85bc;
+    border-radius: 15px;
+    position:relative;
 }
 .thprodes01{
     display: flex;
     flex-direction: column;
     margin: 100px 50px;
+}
+
+.thprodes02{
+    color: #403930;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 36px */
+
+}
+.gitdiv{
+    display:flex;
+    gap: 20px;
+}
+.thprodes03{
+    color: #403930;
+font-family: Pretendard;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 24px */
+}
+.githublink{
+    color: #00446A;
+}
+
+.pro{
+    content: url("./pro.png");
+    width:450px;
+    height: 400px;
+    position: absolute;
+    top: 0px;
+    right: 100px;
+}
+
+.test{
+    display: flex;
+    width: 1360px;
+    height: 609px;
+    padding: 80px 200px 120px 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.testdiv01{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 60px;
+margin: 0px 50px 0px 50px;
+}
+.testtitle{
+    color: #403930;
+font-family: Pretendard;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 125%; /* 50px */
+letter-spacing: -0.8px;
+}
+.testcontent{
+    display: flex;
+align-items: flex-start;
+gap: 40px;
+
+}
+.minjae01{
+    display: flex;
+width: 460px;
+height: 264px;
+padding: 0px 39px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+border-radius: 10px;
+background: #FAFAFA;
+box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+}
+.minjaecon{
+    color: #403930;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 30px */
+}
+
+.minjaename{
+    color: #403930;
+text-align: center;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px; /* 125% */
+}
+
+.resolution{
+    display: flex;
+width: 1366px;
+height: 406px;
+padding: 64px 0px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background: #E6EEFF;
+}
+
+.resolutiondiv{
+    color: #403930;
+font-family: Pretendard;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 125%; /* 60px */
+letter-spacing: -0.96px;
+}
+.last{
+    display:flex;
+    width: 1366px;
+height: 182px;
+flex-shrink: 0;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.lastdiv{
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 35px;
+}
+
+.lastimg{
+    content: url("./lastimg.png");
+    width: 50px;
+    height: 50px;;
+}
+.insta{
+    content: url("./insta.svg");
+    width: 30px;
+    height: 30px;
+}
+.facebook{
+    content: url("./facebook.svg");
+    width: 30px;
+    height: 30px;
+}
+.linkedin{
+    content: url("./linkedin.svg");
+    width: 30px;
+    height: 30px;
 }
