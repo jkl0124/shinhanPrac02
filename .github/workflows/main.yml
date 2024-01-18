@@ -1,0 +1,25 @@
+name: Deploy to S3
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${ AKIAZ4HQXKXN2CCY3ONX }
+          aws-secret-access-key: ${ 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 }
+          aws-region: ap-northeast-2 # AWS S3 버킷이 위치한 리전으로 변경
+
+      - name: Upload to S3
+        run: |
+          aws s3 sync web s3://myawsbuc0101/
