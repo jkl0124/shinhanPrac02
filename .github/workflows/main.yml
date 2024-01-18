@@ -16,8 +16,8 @@ jobs:
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
-          aws-access-key-id: ${ AKIAZ4HQXKXN2CCY3ONX }
-          aws-secret-access-key: ${ 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 }
+          aws-access-key-id: ${  }
+          aws-secret-access-key: ${ }
           aws-region: ap-northeast-2 # AWS S3 버킷이 위치한 리전으로 변경
 
       - name: Upload to S3
