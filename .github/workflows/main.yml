@@ -23,3 +23,7 @@ jobs:
       - name: Upload to S3
         run: |
           aws s3 sync web s3://myawsbuc0101/
+
+
+      - name: Invalidate cloudfront
+        run: aws cloudfront create-invalidation --distribution-id E35H05XMQFUZNJ --paths /* 
