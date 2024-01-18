@@ -8,7 +8,9 @@
 body {
     /* font-family: "Cafe24Supermagic-Bold-v1.0"; */
 }
-
+html {
+    scroll-behavior: smooth;
+}
 .contactme {
     display: flex;
     position: fixed;
@@ -55,7 +57,10 @@ nav {
     height: 100px;
 }
 
-.navItem {}
+.navItem {
+    text-decoration: none;
+    color:#000;
+}
 
 .badge {
     /* display: flex; */
@@ -377,7 +382,7 @@ letter-spacing: -0.8px;
     display: flex;
     width: 1080px;
     height: 400px;
-    background-color:#6f85bc;
+    background-color:#E6EEFF;
     border-radius: 15px;
     position:relative;
 }
