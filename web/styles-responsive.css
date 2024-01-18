@@ -136,57 +136,57 @@ align-self: stretch;
 
 }
 .imagepy {
-    content: url("../dya2/python.png");
+    content: url("python.png");
     height: 50px;
     width: 50px;
 }
 .imageno {
-    content: url("../dya2/notion.png");
+    content: url("notion.png");
     height: 50px;
     width: 50px;
 }
 .imageji {
-    content: url("../dya2/jira.png");
+    content: url("jira.png");
     height: 50px;
     width: 50px;
 }
 .imagec {
-    content: url("../dya2/c.png");
+    content: url("c.png");
     height: 50px;
     width: 50px;
 }
 .imagecl {
-    content: url("../dya2/clickup.png");
+    content: url("clickup.png");
     height: 40px;
     width: 40px;
 }
 .image10{
-    content: url("../dya2/Group\ 10.png");
+    content: url("Group\ 10.png");
     height: 50px;
     width: 50px;
 }
 .image11{
-    content: url("../dya2/Group\ 11.png");
+    content: url("Group\ 11.png");
     height: 50px;
     width: 50px;
 }
 .image12{
-    content: url("../dya2/Group\ 12.png");
+    content: url("Group\ 12.png");
     height: 50px;
     width: 50px;
 }
 .image12{
-    content: url("../dya2/Group\ 12.png");
+    content: url("Group\ 12.png");
     height: 50px;
     width: 50px;
 }
 .image13{
-    content: url("../dya2/Group\ 13.png");
+    content: url("Group\ 13.png");
     height: 50px;
     width: 50px;
 }
 .image14{
-    content: url("../dya2/Group\ 14.png");
+    content: url("Group\ 14.png");
     height: 40px;
     width: 40px;
 }
@@ -292,7 +292,7 @@ position: relative;
 }
 
 .pro{
-    content: url("../dya2/pro.png");
+    content: url("./pro.png");
     width:265px;
     height: 200px;
     position: absolute;
@@ -411,17 +411,17 @@ align-items: center;
     gap:20px;
 }
 .insta{
-    content: url("../dya2/insta.svg");
+    content: url("./insta.svg");
     width: 20px;
     height: 20px;
 }
 .facebook{
-    content: url("../dya2//facebook.svg");
+    content: url("./facebook.svg");
     width: 20px;
     height: 20px;
 }
 .linkedin{
-    content: url("../dya2//linkedin.svg");
+    content: url("./linkedin.svg");
     width: 20px;
     height:20px;
 }
